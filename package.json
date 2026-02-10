@@ -1,6 +1,6 @@
 {
   "name": "node-mitmproxy-pro",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Node.js MITM Proxy Pro",
   "main": "lib",
   "bin": "lib/bin/index.js",
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/CyrilGuoCODE/node-mitmproxy-pro/issues"
   },
-  "homepage": "https://github.com/CyrilGuoCODE/node-mitmproxy-pro#readme",
+  "homepage": "https://www.npmjs.com/package/node-mitmproxy-pro",
   "devDependencies": {
     "babel-cli": "^6.6.5"
   },

@@ -2,7 +2,7 @@
 
 **注意**: 此项目由node-mitmproxy修改而来  
 原项目地址：https://github.com/wuchangming/node-mitmproxy  
-官网：https://www.npmjs.com/package/node-mitmproxy
+原项目官网：https://www.npmjs.com/package/node-mitmproxy
 
 [![npm](https://img.shields.io/npm/dt/node-mitmproxy-pro.svg)](https://www.npmjs.com/package/node-mitmproxy-pro)  
 node-mitmproxy-pro是一个基于nodejs，支持http/https的中间人(MITM)代理，便于渗透测试和开发调试。
@@ -10,6 +10,7 @@ node-mitmproxy-pro是一个基于nodejs，支持http/https的中间人(MITM)代�
 ## 1、特性
 1、支持https  
 2、支持配置的方式启动，也支持以模块的方式引入到代码中
+3、轻松捕获、重写请求和响应
 
 ## 2、安装
 
@@ -61,7 +62,7 @@ sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keyc
 ```
 ###### windows
 注: 证书需要安装到  ** 受信任的根证书目录 ** 下  
-参考 [issues#3](https://github.com/CyrilGuoCODE/node-mitmproxy-pro/issues/3)
+参考 [issues#3](https://github.com/wuchangming/node-mitmproxy/issues/3)
 ```
 start %HOMEPATH%/node-mitmproxy-pro/node-mitmproxy-pro.ca.crt
 ```
