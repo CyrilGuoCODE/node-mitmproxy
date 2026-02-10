@@ -44,7 +44,7 @@
     "node-forge": "^0.6.39",
     "through2": "^2.0.1",
     "tunnel-agent": "^0.4.3",
-    "uuid": "^13.0.0"
+    "uuid": "8.3.2"
   },
   "files": [
     "lib"
